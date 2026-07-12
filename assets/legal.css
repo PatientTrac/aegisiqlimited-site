@@ -1,0 +1,28 @@
+
+/* AegisIQ corporate legal-page extension */
+.legal-page-hero{padding-bottom:52px}
+.legal-meta{margin-top:20px;color:var(--muted-2);font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+.legal-tabs{position:sticky;top:75px;z-index:15;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);background:rgba(4,8,18,.94);backdrop-filter:blur(18px)}
+.legal-tabs-row{display:flex;gap:8px;overflow:auto;padding-top:11px;padding-bottom:11px;scrollbar-width:thin}
+.legal-tab{white-space:nowrap;padding:8px 11px;border:1px solid transparent;border-radius:999px;color:var(--muted);font-size:12px;font-weight:700}
+.legal-tab:hover,.legal-tab.active{color:#fff;border-color:var(--line);background:rgba(46,107,255,.11)}
+.legal-section{padding-top:62px}
+.legal-layout{display:grid;grid-template-columns:minmax(0,860px);justify-content:center}
+.legal-document{font-size:16px;line-height:1.8;color:#c7d2e6}
+.legal-document h2{font-size:29px;line-height:1.2;letter-spacing:-.025em;color:#fff;margin:46px 0 14px}
+.legal-document h2:first-child{margin-top:0}
+.legal-document h3{font-size:19px;color:#fff;margin:28px 0 10px}
+.legal-document p,.legal-document ul,.legal-document ol{margin:0 0 18px}
+.legal-document ul,.legal-document ol{padding-left:24px}
+.legal-document li{margin:8px 0}
+.legal-document a:not(.btn){color:var(--gold-2);text-decoration:underline;text-underline-offset:3px}
+.legal-callout,.legal-contact{border:1px solid var(--line);border-radius:18px;padding:24px;background:linear-gradient(145deg,rgba(14,28,55,.82),rgba(7,14,29,.9));margin:0 0 30px}
+.legal-callout strong{display:block;color:var(--gold-2);font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+.legal-callout p,.legal-contact p{margin:0}
+.legal-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:22px 0 34px}
+.legal-card{display:block;border:1px solid var(--line-soft);border-radius:16px;padding:22px;background:rgba(8,17,35,.72);text-decoration:none!important;transition:transform .2s,border-color .2s}
+.legal-card:hover{transform:translateY(-3px);border-color:#46679f}
+.legal-card>span{font-family:var(--mono);font-size:10px;color:var(--blue-2);letter-spacing:.12em}
+.legal-card h3{margin:12px 0 7px;font-size:18px}
+.legal-card p{color:var(--muted);font-size:13px;line-height:1.55;margin:0}
+@media(max-width:700px){.legal-tabs{top:75px}.legal-card-grid{grid-template-columns:1fr}.legal-document{font-size:15px}.legal-document h2{font-size:25px}}

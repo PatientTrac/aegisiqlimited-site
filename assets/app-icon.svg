@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">AegisIQ app icon</title>
+  <desc id="desc">A gold A and blue orbit on a navy rounded square.</desc>
+  <rect width="128" height="128" rx="28" fill="#060B18"/>
+  <path fill="#F2B035" fill-rule="evenodd" d="M64 18 105 108H86L75 83H53l-11 25H23L64 18Zm0 39-7 15h14l-7-15Z"/>
+  <path fill="none" stroke="#2E6BFF" stroke-width="8" stroke-linecap="round" d="M17 83C38 68 68 55 111 42"/>
+  <path fill="none" stroke="#5B8CFF" stroke-width="4" stroke-linecap="round" d="M26 43A45 45 0 0 1 95 27"/>
+</svg>
