@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing — AegisIQ Wealth Ledger</title>
+<meta name="description" content="AegisIQ Wealth Ledger pricing — Entity & Wealth Accounting. Four plans in USD, from Foundation to Global, plus add-ons and assisted migration. Operated by AegisIQ Limited (Hong Kong).">
+<meta name="theme-color" content="#060B18">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD874"/><stop offset=".5" stop-color="#F2B035"/><stop offset="1" stop-color="#C7862A"/></linearGradient>
+  <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5B8CFF"/><stop offset="1" stop-color="#1E4FD1"/></linearGradient>
+</defs></svg>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html" aria-label="AegisIQ home">
+      <img src="assets/logo.svg" width="30" height="30" alt="">
+      <span>Aegis<span class="iq">IQ</span><small>Financial Intelligence Network</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#company" data-i18n="nav.company">Company</a>
+      <a href="index.html#platform" data-i18n="nav.platform">Platform</a>
+      <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
+      <a href="index.html#governance" data-i18n="nav.governance">Governance</a>
+      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <label class="lang-wrap"><span class="sr-only">Language</span>
+        <select id="langSelect" class="lang-select" onchange="setLang(this.value)" aria-label="Language">
+          <option value="en">EN · English</option>
+          <option value="es">ES · Español</option>
+          <option value="pt-BR">BR · Português</option>
+          <option value="fr">FR · Français</option>
+          <option value="de">DE · Deutsch</option>
+          <option value="ru">RU · Русский</option>
+          <option value="zh">ZH · 中文</option>
+        </select></label>
+      <a class="nav-cta" href="https://aegisiqfintech.com" target="_blank" rel="noopener" data-i18n="nav.investor">Investor Portal</a>
+    </div>
+  </div>
+</nav>
+
+<header class="phero" style="--accent:#38CFA6;padding-bottom:20px">
+  <div class="dots"></div><div class="bloom g"></div><div class="bloom b"></div>
+  <div class="wrap">
+    <a class="back-link" href="wealth-ledger.html">← AegisIQ Wealth Ledger</a>
+    <span class="eyebrow">AegisIQ Wealth Ledger · Entity &amp; Wealth Accounting</span>
+    <h1>One workspace. <span class="em">Every entity you hold.</span></h1>
+    <p class="prole" style="max-width:38em">Multiple businesses, personal books, investments, advisers, and related entities in one paid workspace — while each legal book stays separate. Priced per workspace, in U.S. dollars.</p>
+    <div class="price-toggle" role="group" aria-label="Billing period">
+      <button id="btn-monthly" class="on" onclick="setPeriod('monthly')">Monthly</button>
+      <button id="btn-annual" onclick="setPeriod('annual')">Annual</button>
+      <span class="save-tag">Annual ≈ 2 months free</span>
+    </div>
+  </div>
+</header>
+
+<section class="block" style="padding-top:44px">
+  <div class="wrap">
+    <div class="tiers">
+
+      <!-- FOUNDATION -->
+      <div class="tier reveal">
+        <div class="pname">Foundation</div>
+        <div class="ptarget">One business owner establishing business and personal books.</div>
+        <div class="amount"><span class="cur">$</span><span class="val" data-monthly="49" data-annual="490">49</span></div>
+        <div class="per"><span class="period-label">per month, USD</span></div>
+        <a class="btn btn-ghost tbtn" href="#" data-cta>Start free trial</a>
+        <ul>
+          <li>1 active business entity</li>
+          <li>1 personal / household book</li>
+          <li>3 operating users</li>
+          <li>Free accountant, adviser &amp; read-only access</li>
+          <li>Core double-entry accounting</li>
+          <li>Banking &amp; reconciliation</li>
+          <li>Balance sheet, income statement, cash flow</li>
+          <li>CSV / Excel / Google Sheets imports + saved mappings</li>
+          <li>Receipt &amp; document vault</li>
+          <li>AI-assisted categorization</li>
+          <li>One functional currency &amp; jurisdiction pack</li>
+          <li>Standard audit trail &amp; full data export</li>
+        </ul>
+      </div>
+
+      <!-- OWNER -->
+      <div class="tier popular reveal">
+        <span class="flag">Most Popular</span>
+        <div class="pname">Owner</div>
+        <div class="ptarget">Several businesses, personal wealth, and investments.</div>
+        <div class="amount"><span class="cur">$</span><span class="val" data-monthly="129" data-annual="1,290">129</span></div>
+        <div class="per"><span class="period-label">per month, USD</span></div>
+        <a class="btn btn-primary tbtn" href="#" data-cta>Start free trial</a>
+        <ul>
+          <li class="head">Everything in Foundation, plus</li>
+          <li>Up to 5 active entities</li>
+          <li>8 operating users</li>
+          <li>Multi-currency accounting</li>
+          <li>Cross-entity &amp; owner transfers</li>
+          <li>Personal &amp; business net-worth reporting</li>
+          <li>Brokerage &amp; investment accounting — 3 accounts</li>
+          <li>Tax lots, dividends, realized/unrealized gains</li>
+          <li>Owner Expense Differential &amp; expense splitting</li>
+          <li>1 U.S. S-Corp Differential entity + 1120-S workpapers</li>
+          <li>Portfolio reporting &amp; basic valuation</li>
+          <li>Approval workflows</li>
+        </ul>
+      </div>
+
+      <!-- GROUP -->
+      <div class="tier reveal">
+        <div class="pname">Group</div>
+        <div class="ptarget">Multi-entity operating groups, advisers, and family businesses.</div>
+        <div class="amount"><span class="cur">$</span><span class="val" data-monthly="349" data-annual="3,490">349</span></div>
+        <div class="per"><span class="period-label">per month, USD</span></div>
+        <a class="btn btn-ghost tbtn" href="#" data-cta>Start free trial</a>
+        <ul>
+          <li class="head">Everything in Owner, plus</li>
+          <li>Up to 15 active entities</li>
+          <li>25 operating users</li>
+          <li>Intercompany automation &amp; due-to/due-from matching</li>
+          <li>Consolidated reporting &amp; elimination entries</li>
+          <li>Multi-entity currency translation</li>
+          <li>Month-end close &amp; certification workflows</li>
+          <li>10 connected brokerages · 3 jurisdiction packs</li>
+          <li>3 U.S. S-Corp Differential entities</li>
+          <li>Advanced valuations, scenarios &amp; custom dimensions</li>
+          <li>API access &amp; scheduled data pipelines</li>
+          <li>Audit-package exports &amp; priority support</li>
+        </ul>
+      </div>
+
+      <!-- GLOBAL -->
+      <div class="tier reveal">
+        <div class="pname">Global</div>
+        <div class="ptarget">Family offices, international groups, and regulated deployments.</div>
+        <div class="from">From</div>
+        <div class="amount"><span class="cur">$</span><span class="val" data-monthly="999" data-annual="9,990">999</span></div>
+        <div class="per"><span class="period-label">per month, USD</span></div>
+        <a class="btn btn-ghost tbtn" href="index.html#contact">Contact sales</a>
+        <ul>
+          <li class="head">Everything in Group, plus</li>
+          <li>30+ active entities · 50+ operating users</li>
+          <li>Multiple consolidated groups</li>
+          <li>Multiple jurisdiction packs</li>
+          <li>Regional deployment options</li>
+          <li>SSO &amp; enterprise identity</li>
+          <li>Advanced permissions &amp; custom retention</li>
+          <li>SFTP &amp; enterprise ingestion · custom connectors</li>
+          <li>Dedicated implementation manager &amp; SLA</li>
+          <li>Security review &amp; dedicated training</li>
+          <li>Optional database / regional isolation</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="note-row reveal">
+      <span class="note-chip"><b>◆</b> 30-day free trial — no card required</span>
+      <span class="note-chip"><b>◆</b> Cancel monthly anytime, effective end of period</span>
+      <span class="note-chip"><b>◆</b> Canceled workspaces keep read-only &amp; full export</span>
+      <span class="note-chip"><b>◆</b> Archived entities aren't charged as active</span>
+    </div>
+
+    <div class="equity-pointer reveal">
+      <div class="ep-body">
+        <div class="ep-kicker">Looking for AegisIQ Equity?</div>
+        <h3>Equity plans &amp; checkout live in the app.</h3>
+        <p>AI equity research is priced and purchased inside AegisIQ Equity, with its own cart and secure checkout. Head there to see plans and get started.</p>
+      </div>
+      <a class="btn btn-primary" href="https://aegisiqequity.ai" target="_blank" rel="noopener">View Equity plans <span class="arw">&#8594;</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ADD-ONS -->
+<section class="block gov" id="addons">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Add-ons</span>
+      <h2 class="big">Scale a plan <span class="em">by the piece.</span></h2>
+      <p class="lede">Add capacity without jumping a whole tier. Accountant, tax-adviser, adviser, and read-only users are always free — you're never charged per seat for the people who review your books.</p>
+    </div>
+    <table class="ptable reveal">
+      <thead><tr><th>Add-on</th><th>Scope</th><th>Price</th></tr></thead>
+      <tbody>
+        <tr><td class="svc">Additional Active Operating Entity</td><td>per active entity</td><td>$29 / mo</td></tr>
+        <tr><td class="svc">Low-Activity Holding, Property, or Trust Entity</td><td>per entity</td><td>$9 / mo</td></tr>
+        <tr><td class="svc">Additional Personal or Household Book</td><td>per book</td><td>$9 / mo</td></tr>
+        <tr><td class="svc">Additional Operating User</td><td>per user</td><td>$12 / mo</td></tr>
+        <tr><td class="svc">U.S. S-Corporation Differential Pack</td><td>per active S corporation</td><td>$29 / mo</td></tr>
+        <tr><td class="svc">Additional Jurisdiction Pack</td><td>per workspace pack</td><td>$39 / mo</td></tr>
+        <tr><td class="svc">Additional Connected Brokerage Account</td><td>per connection</td><td>$10 / mo</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ONE-TIME SERVICES -->
+<section class="block" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Assisted setup</span>
+      <h2 class="big">One-time <span class="em">migration &amp; implementation.</span></h2>
+      <p class="lede">Optional, one-time services to move your history in cleanly — billed separately from your subscription.</p>
+    </div>
+    <table class="ptable reveal">
+      <thead><tr><th>Service</th><th></th><th>Price</th></tr></thead>
+      <tbody>
+        <tr><td class="svc">Assisted migration — first standard entity</td><td></td><td>$499</td></tr>
+        <tr><td class="svc">Each additional standard entity</td><td></td><td>$199</td></tr>
+        <tr><td class="svc">Personal-book setup</td><td></td><td>$149</td></tr>
+        <tr><td class="svc">Brokerage-history conversion</td><td></td><td>from $299</td></tr>
+        <tr><td class="svc">Full historical transaction conversion</td><td></td><td>from $1,500 / entity</td></tr>
+        <tr><td class="svc">Multi-entity implementation</td><td></td><td>from $3,500</td></tr>
+        <tr><td class="svc">Global / family-office implementation</td><td></td><td>custom quote</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- LEGAL / PAYMENT -->
+<section class="block gov">
+  <div class="wrap">
+    <div class="sec-head reveal" style="margin-bottom:28px">
+      <span class="eyebrow">Billing &amp; payment</span>
+      <h2 class="big">Clear, <span class="em">USD, no surprises.</span></h2>
+    </div>
+    <div class="legal-box reveal">
+      <p>All prices are in <strong>U.S. dollars</strong> and exclude applicable taxes. Standard payment processing is included in the subscription price. Annual Group and Global customers may be offered bank-transfer payment where available. Currency-conversion charges, intermediary-bank charges, and charges imposed by a customer's financial institution are not included.</p>
+      <p style="margin-top:16px">Applicable taxes are shown separately at checkout. Subscriptions are billed through <strong>Stripe</strong>.</p>
+      <p style="margin-top:16px;color:var(--muted-dim);font-size:12.5px">AegisIQ Wealth Ledger is operated by <strong>AegisIQ Limited</strong>, a private company limited by shares incorporated in Hong Kong. BRN / UBI 79570488.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.svg" width="28" height="28" alt="">
+          <span style="font-family:var(--serif);font-weight:600;font-size:19px">Aegis<span style="color:var(--gold)">IQ</span> Limited</span>
+        </a>
+        <p data-i18n="foot.tagline">The Financial Intelligence Network — a connected suite of governance-first financial platforms on one secure data spine.</p>
+        <p class="legal-fine">AegisIQ Limited, a private company limited by shares incorporated in Hong Kong. BRN / UBI 79570488.</p>
+      </div>
+      <div class="fcol"><h5 data-i18n="foot.platform">Platform</h5>
+        <a href="equity.html">AegisIQ Equity</a>
+        <a href="stock-ledger.html">AegisIQ Stock Ledger</a>
+        <a href="wealth-ledger.html">AegisIQ Wealth Ledger</a>
+        <a href="investor-portal.html">Investor Portal</a>
+      </div>
+      <div class="fcol"><h5 data-i18n="foot.company">Company</h5>
+        <a href="index.html#company" data-i18n="nav.company">Company</a>
+        <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
+        <a href="index.html#governance" data-i18n="nav.governance">Governance</a>
+        <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="fcol"><h5 data-i18n="foot.legal">Legal</h5>
+        <a href="privacy.html" data-i18n="foot.privacy">Privacy Policy</a>
+        <a href="terms.html" data-i18n="foot.terms">Terms of Service</a>
+        <a href="legal.html" data-i18n="foot.disclosures">Disclosures</a>
+        <a href="mailto:hello@aegisiqfintech.com">hello@aegisiqfintech.com</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 AegisIQ Limited · Incorporated in Hong Kong · BRN/UBI 79570488</span>
+      <span>aegisiqlimited.com · AES-256 · TLS 1.3 · Entity-scoped isolation</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+<script src="assets/i18n.js"></script>
+<script>
+  function setPeriod(p){
+    document.getElementById('btn-monthly').classList.toggle('on', p==='monthly');
+    document.getElementById('btn-annual').classList.toggle('on', p==='annual');
+    document.querySelectorAll('.tier .val').forEach(function(el){
+      el.textContent = el.getAttribute('data-'+p);
+    });
+    document.querySelectorAll('.period-label').forEach(function(el){
+      el.textContent = (p==='annual') ? 'per year, USD' : 'per month, USD';
+    });
+  }
+</script>
+</body>
+</html>
