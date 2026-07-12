@@ -1,4 +1,4 @@
-# Netlify configuration — static site, no build step
+# AegisIQ Limited corporate site — static deployment
 [build]
   publish = "."
   command = ""
@@ -9,7 +9,25 @@
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
 
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/applications"
+  to = "/#applications"
+  status = 301
+[[redirects]]
+  from = "/products"
+  to = "/#applications"
+  status = 301
+[[redirects]]
+  from = "/compare"
+  to = "/compare.html"
+  status = 200
 [[redirects]]
   from = "/equity"
   to = "/equity.html"

@@ -3,152 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AegisIQ Investor Portal — AegisIQ</title>
-<meta name="description" content="AegisIQ Investor Portal: The issuer and investor operations layer — and the identity backbone of the network.">
-<meta name="theme-color" content="#060B18">
-<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css">
+<title>AegisIQ Investor Portal — AegisIQ Limited</title>
+<meta name="description" content="Corporate overview of AegisIQ Investor Portal: Private-placement and investor operations, core functions, workflow, comparison, and product pricing link.">
+<meta property="og:title" content="AegisIQ Investor Portal — AegisIQ Limited">
+<meta property="og:description" content="Corporate overview of AegisIQ Investor Portal: Private-placement and investor operations, core functions, workflow, comparison, and product pricing link.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aegisiqlimited.com/investor-portal">
+<meta name="theme-color" content="#040812">
+<link rel="canonical" href="https://aegisiqlimited.com/investor-portal">
+<link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/corporate.css">
+<style>:root{--accent:#C77DFF}</style>
 </head>
 <body style="--accent:#C77DFF">
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-  <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD874"/><stop offset=".5" stop-color="#F2B035"/><stop offset="1" stop-color="#C7862A"/></linearGradient>
-  <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5B8CFF"/><stop offset="1" stop-color="#1E4FD1"/></linearGradient>
-</defs></svg>
-<nav>
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html" aria-label="AegisIQ home">
-      <img src="assets/logo.svg" width="30" height="30" alt="">
-      <span>Aegis<span class="iq">IQ</span><small>Financial Intelligence Network</small></span>
+<nav class="site-nav">
+  <div class="wrap nav-row">
+    <a class="brand-lockup" href="index.html" aria-label="AegisIQ Limited home">
+      <img src="assets/logo-mark.svg" width="38" height="38" alt="">
+      <span class="brand-copy">Aegis<span class="iq">IQ</span> Limited<small>Connected financial applications</small></span>
     </a>
-    <div class="nav-links">
-      <a href="index.html#company" data-i18n="nav.company">Company</a>
-      <a href="index.html#platform" data-i18n="nav.platform">Platform</a>
-      <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
-      <a href="index.html#governance" data-i18n="nav.governance">Governance</a>
-      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+    <div class="nav-links" id="primary-navigation">
+      <details class="nav-dropdown"><summary>Applications</summary><div class="nav-menu"><a href="equity.html" style="--product:#5B8CFF"><span class="mini">EQ</span><b>AegisIQ Equity</b><span>AI equity research and market intelligence</span></a><a href="stock-ledger.html" style="--product:#F2B035"><span class="mini">SL</span><b>AegisIQ Stock Ledger</b><span>Compliance-grade ownership and cap-table control</span></a><a href="wealth-ledger.html" style="--product:#38CFA6"><span class="mini">WL</span><b>AegisIQ Wealth Ledger</b><span>Entity, owner, investment, and wealth accounting</span></a><a href="investor-portal.html" style="--product:#C77DFF"><span class="mini">IP</span><b>AegisIQ Investor Portal</b><span>Private-placement and investor operations</span></a></div></details>
+      <a href="compare.html">Compare</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="index.html#trust">Trust</a>
+      <a href="index.html#company">Company</a>
     </div>
-    <div class="nav-right">
-      <label class="lang-wrap"><span class="sr-only">Language</span>
-        <select id="langSelect" class="lang-select" onchange="setLang(this.value)" aria-label="Language">
-          <option value="en">EN · English</option>
-          <option value="es">ES · Español</option>
-          <option value="pt-BR">BR · Português</option>
-          <option value="fr">FR · Français</option>
-          <option value="de">DE · Deutsch</option>
-          <option value="ru">RU · Русский</option>
-          <option value="zh">ZH · 中文</option>
-        </select></label>
-      <a class="nav-cta" href="https://aegisiqfintech.com" target="_blank" rel="noopener" data-i18n="nav.investor">Investor Portal</a>
-    </div>
+    <div class="nav-actions"><a class="nav-text" href="mailto:hello@aegisiqfintech.com">Contact</a><a class="nav-cta" href="index.html#contact">Request a briefing</a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">☰</button></div>
   </div>
 </nav>
-
-<header class="phero">
-  <div class="dots"></div><div class="bloom g"></div><div class="bloom b"></div>
-  <div class="wrap">
-    <a class="back-link" href="index.html">← The Financial Intelligence Network</a>
-    <div class="accent-bar"></div>
-    <span class="badge"><span class="lv"></span>Live platform</span>
-    <div style="font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:16px 0 4px">Private Placement &amp; Investor Operations</div>
-    <h1>From interest to close, on one trail.</h1>
-    <div class="pdomain">aegisiqfintech.com</div>
-    <p class="prole">The issuer and investor operations layer — and the identity backbone of the network.</p>
-    <p class="pdesc">AegisIQ Investor Portal lets issuers qualify investors, share offering documents, run subscription workflows, and manage approvals from one secure portal. Built for private placements and Reg S international offerings, it keeps a clear, auditable trail from an investor's first interest through subscription close — and provides the email and identity program the whole network runs on.</p>
-    <div class="phero-actions">
-      <a class="btn btn-primary" href="https://aegisiqfintech.com" target="_blank" rel="noopener">Visit aegisiqfintech.com <span class="arw">→</span></a>
-      <a class="btn btn-ghost" href="index.html#contact">Request a briefing</a>
-    </div>
+<header class="product-hero">
+  <div class="wrap product-hero-grid">
+    <div class="reveal"><a class="breadcrumb" href="index.html">← AegisIQ Limited application family</a><div class="product-kicker">Private-placement and investor operations · Available</div><h1>Move investor activity through a controlled path from access to close.</h1><div class="product-domain">aegisiqfintech.com</div><p class="lead">AegisIQ Investor Portal coordinates permissioned documents, investor onboarding, qualification, subscription workflows, issuer review, communications, and offering status in one operating environment.</p><p class="detail">The portal gives issuers and authorized teams a clearer, more attributable workflow than a disconnected mix of data rooms, forms, email threads, and spreadsheets.</p><div class="product-proof"><span>Permissioned document access</span><span>Qualification workflows</span><span>Subscription review</span><span>Issuer approvals</span></div><div class="hero-actions"><a class="btn btn-primary" href="https://aegisiqfintech.com" target="_blank" rel="noopener">Visit product site <span class="arrow">→</span></a><a class="btn btn-secondary" href="mailto:sales@aegisiqfintech.com?subject=Investor%20Portal%20access" rel="noopener">Request access &amp; pricing</a><a class="btn btn-quiet" href="compare.html">Compare applications</a></div></div>
+    <div class="product-visual reveal"><img src="assets/visuals/investor-portal-workspace.svg" alt="Illustrated AegisIQ Investor Portal product workspace"></div>
   </div>
 </header>
-
-<section class="block">
+<section class="section tinted"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Capabilities</span><h2 class="section-title wide">What AegisIQ Investor Portal is designed to do.</h2></div><p class="subhead">The corporate overview explains the product boundary. The product site contains the live application, current plan details, demonstrations, and product-specific disclosures.</p></div><div class="feature-grid"><article class="feature-card reveal"><div class="feature-icon">OB</div><h3>Investor onboarding</h3><p>Invite authorized users, establish profiles, and guide each participant through the required steps.</p></article><article class="feature-card reveal"><div class="feature-icon">DR</div><h3>Controlled document room</h3><p>Publish versioned offering materials and restrict access by investor, role, offering, or status.</p></article><article class="feature-card reveal"><div class="feature-icon">QL</div><h3>Qualification review</h3><p>Collect relevant representations and route exceptions to authorized reviewers.</p></article><article class="feature-card reveal"><div class="feature-icon">SB</div><h3>Subscription workflow</h3><p>Coordinate documents, signatures, amounts, status, and completeness checks.</p></article><article class="feature-card reveal"><div class="feature-icon">AP</div><h3>Issuer approvals</h3><p>Separate investor submission from issuer acceptance and retain the authorized decision history.</p></article><article class="feature-card reveal"><div class="feature-icon">CM</div><h3>Communications</h3><p>Maintain controlled notices, reminders, and activity history around each investor relationship.</p></article><article class="feature-card reveal"><div class="feature-icon">CL</div><h3>Closing operations</h3><p>Track commitments, approvals, funding status, and completion milestones across the offering.</p></article><article class="feature-card reveal"><div class="feature-icon">AU</div><h3>Audit trail</h3><p>Retain version, access, action, reviewer, and timestamp context for material workflow events.</p></article></div></div></section>
+<section class="section"><div class="wrap"><div class="section-head single"><span class="eyebrow">Operating workflow</span><h2 class="section-title wide">A controlled path from input to decision.</h2><p class="subhead">The workflow is designed to preserve context, require the right review, and leave a traceable record of material actions.</p></div><div class="process-grid"><article class="process-step reveal"><h3>Launch the offering workspace</h3><p>Configure the offering, authorized team, documents, access rules, and workflow states.</p></article><article class="process-step reveal"><h3>Invite and qualify investors</h3><p>Provide controlled access and collect the information required for review.</p></article><article class="process-step reveal"><h3>Review subscriptions</h3><p>Check completeness, route exceptions, and retain the issuer’s approval decision.</p></article><article class="process-step reveal"><h3>Coordinate closing</h3><p>Track commitments, documents, funding, communications, and final status in one place.</p></article></div></div></section>
+<section class="section tinted"><div class="wrap"><div class="section-head single"><span class="eyebrow">Who it serves</span><h2 class="section-title wide">Built around the teams responsible for the record.</h2></div><div class="persona-grid"><article class="persona-card reveal"><div class="label">Primary team</div><h3>For issuers</h3><p>Operate investor access, review, acceptance, and closing without fragmented email chains.</p><ul><li>Offering workspace</li><li>Issuer approvals</li><li>Capital-status view</li></ul></article><article class="persona-card reveal"><div class="label">Operational team</div><h3>For investor-relations teams</h3><p>Coordinate documents, communications, reminders, and relationship activity.</p><ul><li>Permissioned access</li><li>Contact history</li><li>Campaign and notice support</li></ul></article><article class="persona-card reveal"><div class="label">Scaled organization</div><h3>For authorized investors</h3><p>Receive one controlled place for materials, forms, signatures, and status.</p><ul><li>Document access</li><li>Submission status</li><li>Secure communications</li></ul></article></div></div></section>
+<section class="section"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Comparison</span><h2 class="section-title wide">Why a purpose-built application matters.</h2></div><p class="subhead">The comparison is directional and focuses on workflow design rather than claiming that every competing product has the same limitations.</p></div><div class="compare-wrap reveal"><table class="compare-table"><thead><tr><th>Capability</th><th>AegisIQ Investor Portal</th><th>Generic data room</th><th>CRM + forms + email</th></tr></thead><tbody><tr><td>Investor onboarding and status</td><td class="product-col">Purpose-built workflow</td><td>Access only</td><td>Assembled manually</td></tr><tr><td>Qualification review</td><td class="product-col">Integrated review states</td><td>Not native</td><td>Custom forms and spreadsheets</td></tr><tr><td>Subscription documents and acceptance</td><td class="product-col">Connected to issuer approval</td><td>File exchange only</td><td>Manual routing</td></tr><tr><td>Permissioned, versioned materials</td><td class="product-col">Native</td><td>Strong file controls</td><td>Links and attachments</td></tr><tr><td>Offering and closing view</td><td class="product-col">Unified operational status</td><td>Not native</td><td>Manual reporting</td></tr><tr><td>Audit and communications history</td><td class="product-col">Connected to the investor record</td><td>Document activity only</td><td>Fragmented across systems</td></tr><tr><td>Pricing and checkout</td><td class="product-col">Maintained on product site or sales process</td><td>Vendor-specific</td><td>Multiple subscriptions</td></tr></tbody></table></div></div></section>
+<section class="section tinted"><div class="wrap"><div class="section-head single"><span class="eyebrow">The application family</span><h2 class="section-title wide">One company. Four distinct financial jobs.</h2><p class="subhead">Each product can stand alone. The corporate architecture keeps its system-of-record responsibility, product pricing, and legal disclosures clear.</p></div><div class="connection-grid"><a class="connection-card" href="equity.html"><small>Research</small><b>AegisIQ Equity</b><p>Develop the thesis, market context, catalyst view, and risk record.</p></a><a class="connection-card" href="stock-ledger.html"><small>Own</small><b>AegisIQ Stock Ledger</b><p>Maintain the authoritative holder, security, transaction, and certificate record.</p></a><a class="connection-card" href="wealth-ledger.html"><small>Account</small><b>AegisIQ Wealth Ledger</b><p>Post transactions, preserve import detail, report, and value the owner’s interests.</p></a><a class="connection-card current" href="investor-portal.html"><small>Raise</small><b>AegisIQ Investor Portal</b><p>Coordinate controlled investor access, subscriptions, approvals, and closing.</p></a></div></div></section>
+<section class="section compact"><div class="wrap"><div class="cta-panel reveal"><div><span class="eyebrow">Product site and pricing</span><h2>Continue with AegisIQ Investor Portal.</h2><p>AegisIQ Investor Portal is workflow software. It is not a broker-dealer, placement agent, securities exchange, legal adviser, investment adviser, escrow provider, or custodian. Offering participants remain responsible for applicable legal and regulatory requirements.</p></div><div class="cta-actions"><a class="btn btn-primary" href="https://aegisiqfintech.com" target="_blank" rel="noopener">Open product site <span class="arrow">→</span></a><a class="btn btn-secondary" href="mailto:sales@aegisiqfintech.com?subject=Investor%20Portal%20access" rel="noopener">Request access</a></div></div></div></section>
+<footer class="site-footer">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Capabilities</span>
-      <h2 class="big">What AegisIQ Investor Portal <span class="em">does.</span></h2>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand-lockup" href="index.html"><img src="assets/logo-mark.svg" width="38" height="38" alt=""><span class="brand-copy">Aegis<span class="iq">IQ</span> Limited<small>Connected financial applications</small></span></a>
+        <p>AegisIQ Limited develops focused software for equity research, ownership records, entity and wealth accounting, and investor operations.</p>
+        <p>AegisIQ Limited is a private company limited by shares incorporated in Hong Kong. BRN / UBI 79570488.</p>
+      </div>
+      <div class="footer-col"><h4>Applications</h4><a href="equity.html">AegisIQ Equity</a><a href="stock-ledger.html">Stock Ledger</a><a href="wealth-ledger.html">Wealth Ledger</a><a href="investor-portal.html">Investor Portal</a></div>
+      <div class="footer-col"><h4>Company</h4><a href="compare.html">Compare applications</a><a href="pricing.html">Product pricing</a><a href="index.html#trust">Trust and governance</a><a href="index.html#company">About AegisIQ Limited</a><a href="index.html#contact">Contact</a></div>
+      <div class="footer-col"><h4>Legal</h4><a href="legal.html">Legal center</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="acceptable-use.html">Acceptable use</a><a href="refund.html">Refund policy</a><a href="mailto:legal@aegisiqfintech.com">legal@aegisiqfintech.com</a></div>
     </div>
-    <div class="cap-grid">
-      <div class="cap reveal"><div class="ci">Qualification</div><h4>Investor onboarding</h4><p>Qualify investors and grant secure, permissioned access to offering documents, so the right people see the right materials.</p></div>
-      <div class="cap reveal"><div class="ci">Subscriptions</div><h4>Workflow to close</h4><p>Run the subscription workflow end to end, with issuer approval and status tracking at every step.</p></div>
-      <div class="cap reveal"><div class="ci">Offerings</div><h4>Private &amp; Reg S</h4><p>Purpose-built for private placement and Reg S international offerings, with the document and approval structure those require.</p></div>
-      <div class="cap reveal"><div class="ci">Audit</div><h4>Interest to close</h4><p>Every action is tracked, producing an auditable trail from first interest through a completed, approved subscription.</p></div>
-      <div class="cap reveal"><div class="ci">Identity</div><h4>Network backbone</h4><p>Provides the email and identity program for every AegisIQ platform, so access is governed consistently across the network.</p></div>
-      <div class="cap reveal"><div class="ci">Spine</div><h4>Tied to the entity</h4><p>Each subscription ties back to the shared entity record, closing the loop between the capital you raise and the entity that raised it.</p></div>
-    </div>
+    <div class="footer-bottom"><span>© 2026 AegisIQ Limited · Hong Kong · BRN / UBI 79570488</span><span>aegisiqlimited.com · Product pricing is maintained on each application site</span></div>
   </div>
-</section>
-
-<section class="block connect">
-  <div class="wrap connect-grid">
-    <div class="reveal">
-      <span class="eyebrow">On the network</span>
-      <h2 class="big">One entity, <span class="em">one record.</span></h2>
-      <p class="lede">The Investor Portal closes the capital continuum. The entities researched in Equity, owned in Stock Ledger, and measured in Wealth Ledger become the entities you finance here — and every completed subscription writes back to the same <code>entity_id</code>, so ownership updates flow to the cap table and the loop begins again.</p>
-    </div>
-    <div class="reveal">
-      <div class="gcell" style="border:1px solid var(--line-soft);border-radius:10px">
-        <div class="t" style="color:var(--accent)">Shared spine</div>
-        <h4>Inherited from the network</h4>
-        <p>Entity-scoped isolation · AES-256 at rest · TLS 1.3 in transit · role-based access · immutable, timestamped audit log · as-of attestation on every view.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="block">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">The rest of the network</span>
-      <h2 class="big">Explore the <span class="em">other platforms.</span></h2>
-    </div>
-    <div class="xnav">
-      <a class="xcard reveal" href="equity.html"><div class="xk">Platform</div><h4>AegisIQ Equity</h4><p>AI Equity Research &amp; Market Intelligence</p><span class="go">Explore →</span></a>
-      <a class="xcard reveal" href="stock-ledger.html"><div class="xk">Platform</div><h4>AegisIQ Stock Ledger</h4><p>Institutional Cap-Table &amp; Stock Ledger</p><span class="go">Explore →</span></a>
-      <a class="xcard reveal" href="wealth-ledger.html"><div class="xk">Platform</div><h4>AegisIQ Wealth Ledger</h4><p>Multi-Entity Wealth &amp; Net-Worth</p><span class="go">Explore →</span></a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <a class="brand" href="index.html">
-          <img src="assets/logo.svg" width="28" height="28" alt="">
-          <span style="font-family:var(--serif);font-weight:600;font-size:19px">Aegis<span style="color:var(--gold)">IQ</span> Limited</span>
-        </a>
-        <p data-i18n="foot.tagline">The Financial Intelligence Network — a connected suite of governance-first financial platforms on one secure data spine.</p>
-        <p class="legal-fine">AegisIQ Limited, a private company limited by shares incorporated in Hong Kong. BRN / UBI 79570488.</p>
-      </div>
-      <div class="fcol"><h5 data-i18n="foot.platform">Platform</h5>
-        <a href="equity.html">AegisIQ Equity</a>
-        <a href="stock-ledger.html">AegisIQ Stock Ledger</a>
-        <a href="wealth-ledger.html">AegisIQ Wealth Ledger</a>
-        <a href="investor-portal.html">Investor Portal</a>
-      </div>
-      <div class="fcol"><h5 data-i18n="foot.company">Company</h5>
-        <a href="index.html#company" data-i18n="nav.company">Company</a>
-        <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
-        <a href="index.html#governance" data-i18n="nav.governance">Governance</a>
-        <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
-      </div>
-      <div class="fcol"><h5 data-i18n="foot.legal">Legal</h5>
-        <a href="privacy.html" data-i18n="foot.privacy">Privacy Policy</a>
-        <a href="terms.html" data-i18n="foot.terms">Terms of Service</a>
-        <a href="legal.html" data-i18n="foot.disclosures">Disclosures</a>
-        <a href="mailto:hello@aegisiqfintech.com">hello@aegisiqfintech.com</a>
-      </div>
-    </div>
-    <div class="foot-bottom">
-      <span>© 2026 AegisIQ Limited · Incorporated in Hong Kong · BRN/UBI 79570488</span>
-      <span>aegisiqlimited.com · AES-256 · TLS 1.3 · Entity-scoped isolation</span>
-    </div>
-  </div>
-</footer>
-<script src="assets/site.js"></script>
-<script src="assets/i18n.js"></script>
-</body>
-</html>
+</footer><script src="assets/corporate.js"></script>
+</body></html>

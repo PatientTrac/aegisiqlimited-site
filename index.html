@@ -3,393 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AegisIQ — The Financial Intelligence Network</title>
-<meta name="description" content="AegisIQ Limited builds a connected suite of governance-first financial platforms — AI equity research, cap-table management, wealth consolidation, and investor operations — on one secure financial data spine.">
-<meta property="og:title" content="AegisIQ — The Financial Intelligence Network">
-<meta property="og:description" content="One financial data spine. Four connected platforms. Governance woven through private capital.">
+<title>AegisIQ Limited — Connected Financial Applications</title>
+<meta name="description" content="AegisIQ Limited develops focused financial applications for equity research, ownership records, entity and wealth accounting, and investor operations.">
+<meta property="og:title" content="AegisIQ Limited — Connected Financial Applications">
+<meta property="og:description" content="AegisIQ Limited develops focused financial applications for equity research, ownership records, entity and wealth accounting, and investor operations.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#060B18">
-<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css">
+<meta property="og:url" content="https://aegisiqlimited.com/">
+<meta name="theme-color" content="#040812">
+<link rel="canonical" href="https://aegisiqlimited.com/">
+<link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/corporate.css">
+
 </head>
 <body>
-
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-  <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD874"/><stop offset=".5" stop-color="#F2B035"/><stop offset="1" stop-color="#C7862A"/></linearGradient>
-  <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5B8CFF"/><stop offset="1" stop-color="#1E4FD1"/></linearGradient>
-</defs></svg>
-
-<nav>
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html" aria-label="AegisIQ home">
-      <img src="assets/logo.svg" width="30" height="30" alt="">
-      <span>Aegis<span class="iq">IQ</span><small>Financial Intelligence Network</small></span>
+<nav class="site-nav">
+  <div class="wrap nav-row">
+    <a class="brand-lockup" href="index.html" aria-label="AegisIQ Limited home">
+      <img src="assets/logo-mark.svg" width="38" height="38" alt="">
+      <span class="brand-copy">Aegis<span class="iq">IQ</span> Limited<small>Connected financial applications</small></span>
     </a>
-    <div class="nav-links">
-      <a href="#company" data-i18n="nav.company">Company</a>
-      <a href="#platform" data-i18n="nav.platform">Platform</a>
-      <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
-      <a href="#governance" data-i18n="nav.governance">Governance</a>
-      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    <div class="nav-links" id="primary-navigation">
+      <details class="nav-dropdown"><summary>Applications</summary><div class="nav-menu"><a href="equity.html" style="--product:#5B8CFF"><span class="mini">EQ</span><b>AegisIQ Equity</b><span>AI equity research and market intelligence</span></a><a href="stock-ledger.html" style="--product:#F2B035"><span class="mini">SL</span><b>AegisIQ Stock Ledger</b><span>Compliance-grade ownership and cap-table control</span></a><a href="wealth-ledger.html" style="--product:#38CFA6"><span class="mini">WL</span><b>AegisIQ Wealth Ledger</b><span>Entity, owner, investment, and wealth accounting</span></a><a href="investor-portal.html" style="--product:#C77DFF"><span class="mini">IP</span><b>AegisIQ Investor Portal</b><span>Private-placement and investor operations</span></a></div></details>
+      <a href="compare.html">Compare</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="index.html#trust">Trust</a>
+      <a href="index.html#company">Company</a>
     </div>
-    <div class="nav-right">
-      <label class="lang-wrap"><span class="sr-only">Language</span>
-        <select id="langSelect" class="lang-select" onchange="setLang(this.value)" aria-label="Language">
-          <option value="en">EN · English</option>
-          <option value="es">ES · Español</option>
-          <option value="pt-BR">BR · Português</option>
-          <option value="fr">FR · Français</option>
-          <option value="de">DE · Deutsch</option>
-          <option value="ru">RU · Русский</option>
-          <option value="zh">ZH · 中文</option>
-        </select></label>
-      <a class="nav-cta" href="https://aegisiqfintech.com" target="_blank" rel="noopener" data-i18n="nav.investor">Investor Portal</a>
-    </div>
+    <div class="nav-actions"><a class="nav-text" href="mailto:hello@aegisiqfintech.com">Contact</a><a class="nav-cta" href="index.html#contact">Request a briefing</a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">☰</button></div>
   </div>
 </nav>
-
-<header class="hero" id="top">
-  <div class="dots"></div><div class="bloom g"></div><div class="bloom b"></div>
+<header class="corporate-hero"><div class="wrap hero-grid"><div class="hero-copy reveal"><span class="eyebrow">AegisIQ Limited · Hong Kong</span><h1 class="display">Financial infrastructure for the <span class="gradient">entire ownership journey.</span></h1><p class="subhead">AegisIQ Limited builds specialized applications for researching securities, maintaining ownership records, managing entity and owner accounting, and operating investor workflows.</p><div class="hero-actions"><a class="btn btn-primary" href="#applications">Explore applications <span class="arrow">→</span></a><a class="btn btn-secondary" href="compare.html">Compare the suite</a></div><div class="hero-proof"><div><strong>4 applications</strong><span>Focused product boundaries</span></div><div><strong>1 operator</strong><span>AegisIQ Limited</span></div><div><strong>USD pricing</strong><span>Owned by each product</span></div><div><strong>Hong Kong</strong><span>BRN / UBI 79570488</span></div></div></div><div class="hero-art reveal"><img src="assets/visuals/network-command-center.svg" alt="AegisIQ connected application family command-center illustration"></div></div></header>
+<section class="section tinted" id="applications"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Application family</span><h2 class="section-title wide">Each financial job gets a purpose-built product.</h2></div><p class="subhead">The corporate site explains the family and helps buyers choose. Each product site owns its detailed features, current plans, checkout, demonstrations, and product-specific legal disclosures.</p></div><div class="app-grid"><article class="app-card reveal" style="--accent:#5B8CFF"><div class="app-visual"><img src="assets/visuals/equity-workspace.svg" alt="AegisIQ Equity product workspace illustration"></div><div class="app-body"><div class="app-top"><span class="app-tag">AI equity research and market intelligence</span><span class="status-pill">Product site available</span></div><h3>AegisIQ Equity</h3><div class="app-domain">aegisiqequity.ai</div><p>AegisIQ Equity brings institutional-style research workflows, market context, catalyst analysis, valuation framing, and approval controls into one platform for risk-aware teams.</p><ul class="mini-features"><li>AI research reports</li><li>Market dashboard</li><li>Stock Lens review</li><li>Option Lens context</li><li>Catalyst scanner</li><li>Valuation framing</li></ul><div class="app-links"><a class="primary" href="equity.html">Features &amp; comparison</a><a href="https://aegisiqequity.ai" target="_blank" rel="noopener">Product site</a><a href="https://aegisiqequity.ai/pricing" target="_blank" rel="noopener">Pricing</a></div></div></article><article class="app-card reveal" style="--accent:#F2B035"><div class="app-visual"><img src="assets/visuals/stock-ledger-workspace.svg" alt="AegisIQ Stock Ledger product workspace illustration"></div><div class="app-body"><div class="app-top"><span class="app-tag">Compliance-grade ownership and cap-table control</span><span class="status-pill">Product site available</span></div><h3>AegisIQ Stock Ledger</h3><div class="app-domain">aegisiqstockledger.com</div><p>AegisIQ Stock Ledger manages issuances, transfers, stock classes, certificates, options, SAFEs, approvals, and ownership reporting with entity-scoped access and attributable history.</p><ul class="mini-features"><li>Multi-entity support</li><li>Classes and series</li><li>Transactions</li><li>Certificate lifecycle</li><li>SAFEs, options, and vesting</li><li>Approval evidence</li></ul><div class="app-links"><a class="primary" href="stock-ledger.html">Features &amp; comparison</a><a href="https://aegisiqstockledger.com" target="_blank" rel="noopener">Product site</a><a href="https://aegisiqstockledger.com/pricing" target="_blank" rel="noopener">Pricing</a></div></div></article><article class="app-card reveal" style="--accent:#38CFA6"><div class="app-visual"><img src="assets/visuals/wealth-ledger-workspace.svg" alt="AegisIQ Wealth Ledger product workspace illustration"></div><div class="app-body"><div class="app-top"><span class="app-tag">Entity, owner, investment, and wealth accounting</span><span class="status-pill">Founding product build and roadmap</span></div><h3>AegisIQ Wealth Ledger</h3><div class="app-domain">aegisiqwealthledger.com</div><p>AegisIQ Wealth Ledger is designed for business owners and advisers managing multiple entities, personal finances, investments, statements, transfers, valuations, currencies, and jurisdictions.</p><ul class="mini-features"><li>Entity and book structure</li><li>AegisIQ Intake</li><li>Banking and reconciliation</li><li>Investment accounting</li><li>Statements and reporting</li><li>Owner Expense Differential</li></ul><div class="app-links"><a class="primary" href="wealth-ledger.html">Features &amp; comparison</a><a href="https://aegisiqwealthledger.com" target="_blank" rel="noopener">Product site</a><a href="https://aegisiqwealthledger.com/pricing" target="_blank" rel="noopener">Pricing</a></div></div></article><article class="app-card reveal" style="--accent:#C77DFF"><div class="app-visual"><img src="assets/visuals/investor-portal-workspace.svg" alt="AegisIQ Investor Portal product workspace illustration"></div><div class="app-body"><div class="app-top"><span class="app-tag">Private-placement and investor operations</span><span class="status-pill">Product site available</span></div><h3>AegisIQ Investor Portal</h3><div class="app-domain">aegisiqfintech.com</div><p>AegisIQ Investor Portal coordinates permissioned documents, investor onboarding, qualification, subscription workflows, issuer review, communications, and offering status in one operating environment.</p><ul class="mini-features"><li>Investor onboarding</li><li>Controlled document room</li><li>Qualification review</li><li>Subscription workflow</li><li>Issuer approvals</li><li>Communications</li></ul><div class="app-links"><a class="primary" href="investor-portal.html">Features &amp; comparison</a><a href="https://aegisiqfintech.com" target="_blank" rel="noopener">Product site</a><a href="mailto:sales@aegisiqfintech.com?subject=Investor%20Portal%20access" rel="noopener">Access</a></div></div></article></div></div></section>
+<section class="section"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Capital lifecycle</span><h2 class="section-title wide">Research. Own. Account. Raise.</h2></div><p class="subhead">The applications follow four different responsibilities around the same real-world companies, investments, owners, and investors—without pretending those records are interchangeable.</p></div><div class="lifecycle"><article class="life-step reveal" style="--accent:#5B8CFF"><span class="life-no">01 · RESEARCH</span><h3>Understand the security.</h3><p>Develop the thesis, catalyst view, valuation context, and risk record.</p><a class="life-app" href="equity.html">AegisIQ Equity →</a></article><article class="life-step reveal" style="--accent:#F2B035"><span class="life-no">02 · OWN</span><h3>Control the ownership record.</h3><p>Maintain holders, instruments, issuances, transfers, certificates, and approvals.</p><a class="life-app" href="stock-ledger.html">Stock Ledger →</a></article><article class="life-step reveal" style="--accent:#38CFA6"><span class="life-no">03 · ACCOUNT</span><h3>Measure the owner’s world.</h3><p>Keep legal books separate while connecting statements, investments, imports, and valuations.</p><a class="life-app" href="wealth-ledger.html">Wealth Ledger →</a></article><article class="life-step reveal" style="--accent:#C77DFF"><span class="life-no">04 · RAISE</span><h3>Operate the investor journey.</h3><p>Coordinate access, qualification, subscriptions, approvals, and closing.</p><a class="life-app" href="investor-portal.html">Investor Portal →</a></article></div></div></section>
+<section class="section tinted"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Why AegisIQ</span><h2 class="section-title wide">A product family instead of a fragmented financial stack.</h2></div><p class="subhead">The corporate value is not that every application is the same. It is that each one is explicit about the record it owns, the review it requires, and the evidence it preserves.</p></div><div class="compare-wrap reveal"><table class="compare-table"><thead><tr><th>Operating question</th><th>AegisIQ approach</th><th>Fragmented stack</th><th>Risk created</th></tr></thead><tbody><tr><td>Which application owns the record?</td><td class="product-col">A clear system-of-record responsibility for each product</td><td>Responsibilities spread across spreadsheets, inboxes, and generic tools</td><td>Duplicate or conflicting records</td></tr><tr><td>Where does pricing live?</td><td class="product-col">On the product site that provides the feature set and checkout</td><td>Copied across corporate and product pages</td><td>Stale plan details and buyer confusion</td></tr><tr><td>How are material actions controlled?</td><td class="product-col">Role, approval, evidence, and attributable history</td><td>Manual review through email or file sharing</td><td>Silent changes and weak auditability</td></tr><tr><td>How does AI participate?</td><td class="product-col">AI accelerates analysis and classification; authorized people approve material outcomes</td><td>Opaque automation or detached chat</td><td>Unexplained results and control gaps</td></tr><tr><td>How does the company site help?</td><td class="product-col">Explains the product family, trust posture, and correct starting point</td><td>Attempts to sell every plan in one place</td><td>Unclear product boundaries</td></tr></tbody></table></div></div></section>
+<section class="section" id="trust"><div class="wrap trust-grid"><div class="reveal"><span class="eyebrow">Trust and governance</span><h2 class="section-title wide">Controls should be visible in the product—not hidden in a policy page.</h2><p class="subhead" style="margin-top:18px">AegisIQ products are designed around authenticated access, entity and workspace boundaries, review before material actions, source preservation, attributable history, and customer-controlled export.</p><div class="trust-list"><div class="trust-item"><b>Explicit permissions</b><span>Access follows the application, workspace, entity, and role.</span></div><div class="trust-item"><b>Approval-first workflows</b><span>Material actions can require authorized review before execution.</span></div><div class="trust-item"><b>Evidence and provenance</b><span>Supporting documents and source context remain connected to the record.</span></div><div class="trust-item"><b>Portable history</b><span>Reports and export paths support customer control and independent review.</span></div></div></div><div class="trust-visual reveal"><img src="assets/visuals/security-control-plane.svg" alt="AegisIQ security and governance control-plane illustration"></div></div></section>
+<section class="section tinted" id="company"><div class="wrap"><div class="section-head"><div><span class="eyebrow">The company</span><h2 class="section-title wide">One legal operator. Clear product boundaries.</h2></div><p class="subhead">AegisIQ Limited is the Hong Kong company operating the AegisIQ product family. Product-specific terms, pricing, and disclosures remain on the product sites where customers use and purchase those services.</p></div><div class="company-grid"><article class="company-panel reveal"><h3>AegisIQ Limited</h3><p>The corporate site is the authoritative company and product-family overview—not a duplicate storefront for every application.</p><div class="company-facts"><div class="fact"><small>Jurisdiction</small><strong>Hong Kong</strong></div><div class="fact"><small>Incorporated</small><strong>9 January 2026</strong></div><div class="fact"><small>BRN / UBI</small><strong>79570488</strong></div><div class="fact"><small>Company type</small><strong>Private limited by shares</strong></div></div></article><article class="company-panel reveal"><h3>Commercial architecture</h3><p>Each application maintains its own plans, value metric, checkout, and disclosures. The corporate site provides discovery, comparison, trust, and cross-product context.</p><div class="company-facts"><div class="fact"><small>Billing currency</small><strong>USD</strong></div><div class="fact"><small>Subscription platform</small><strong>Stripe</strong></div><div class="fact"><small>Settlement</small><strong>Airwallex USD</strong></div><div class="fact"><small>Corporate domain</small><strong>aegisiqlimited.com</strong></div></div></article></div></div></section>
+<section class="section compact" id="contact"><div class="wrap"><div class="cta-panel reveal"><div><span class="eyebrow">Choose the right starting point</span><h2>Tell us which financial record you need to control.</h2><p>We will direct you to the correct product, product-specific pricing, demonstration, or enterprise conversation.</p></div><div class="cta-actions"><a class="btn btn-primary" href="mailto:hello@aegisiqfintech.com?subject=AegisIQ%20product%20briefing">Request a briefing <span class="arrow">→</span></a><a class="btn btn-secondary" href="compare.html">Compare applications</a></div></div></div></section>
+<footer class="site-footer">
   <div class="wrap">
-    <span class="eyebrow" data-i18n="hero.eyebrow">The Financial Intelligence Network</span>
-    <h1 data-i18n-html="hero.title"><span class="em">Private capital,</span> measured, owned, and understood.</h1>
-    <p class="lead" data-i18n="hero.lead">AegisIQ builds a connected suite of governance-first financial platforms — AI equity research, cap-table management, wealth consolidation, and investor operations — all sharing one secure financial data spine and one universal entity key.</p>
-    <div class="pills">
-      <span class="pill"><b>◆</b> <span data-i18n="pill.gov">Governance-First</span></span>
-      <span class="pill"><b>◆</b> <span data-i18n="pill.secure">Secure &amp; Compliant</span></span>
-      <span class="pill"><b>◆</b> <span data-i18n="pill.ai">AI-Powered Intelligence</span></span>
-      <span class="pill"><b>◆</b> <span data-i18n="pill.multi">Multi-Entity · Multi-Currency</span></span>
-    </div>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="#platform"><span data-i18n="hero.cta1">Explore the platform</span> <span class="arw">→</span></a>
-      <a class="btn btn-ghost" href="#contact" data-i18n="hero.cta2">Request a briefing</a>
-    </div>
-  </div>
-</header>
-
-<section class="hub" id="network">
-  <div class="wrap hub-grid">
-    <div class="reveal">
-      <span class="eyebrow">One connected network</span>
-      <h2 class="big">Four platforms, <span class="em">one financial spine.</span></h2>
-      <p class="lede">Each application is built for its job and shares the same entity, ownership, and security layer. An entity researched in Equity flows into Stock Ledger, Wealth Ledger, and the Investor Portal — without ever re-keying a record.</p>
-      <div class="keychip"><span>The universal key across every app:</span><code>entity_id</code></div>
-      <div class="keychip" style="margin-top:12px"><span>One Entity · One Record · One Network · Total Clarity</span></div>
-    </div>
-    <div class="reveal">
-      <div class="hub-nodes">
-        <a class="node" href="equity.html"><span class="dotc" style="color:#5B8CFF;background:#5B8CFF"></span><span class="nm">AegisIQ Equity</span><span class="rl">AI Research</span></a>
-        <a class="node" href="stock-ledger.html"><span class="dotc" style="color:#F2B035;background:#F2B035"></span><span class="nm">AegisIQ Stock Ledger</span><span class="rl">Cap Table</span></a>
-        <a class="node" href="wealth-ledger.html"><span class="dotc" style="color:#38CFA6;background:#38CFA6"></span><span class="nm">AegisIQ Wealth Ledger</span><span class="rl">Net Worth</span></a>
-        <a class="node" href="investor-portal.html"><span class="dotc" style="color:#C77DFF;background:#C77DFF"></span><span class="nm">AegisIQ Investor Portal</span><span class="rl">Capital</span></a>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand-lockup" href="index.html"><img src="assets/logo-mark.svg" width="38" height="38" alt=""><span class="brand-copy">Aegis<span class="iq">IQ</span> Limited<small>Connected financial applications</small></span></a>
+        <p>AegisIQ Limited develops focused software for equity research, ownership records, entity and wealth accounting, and investor operations.</p>
+        <p>AegisIQ Limited is a private company limited by shares incorporated in Hong Kong. BRN / UBI 79570488.</p>
       </div>
-      <div class="stats">
-        <div class="stat"><div class="v">4</div><div class="l">Live platforms</div></div>
-        <div class="stat"><div class="v">AES-256</div><div class="l">Encrypted</div></div>
-        <div class="stat"><div class="v">Multi</div><div class="l">Entity · Currency</div></div>
-        <div class="stat"><div class="v">Global</div><div class="l">NYSE·NASDAQ·LSE</div></div>
-      </div>
+      <div class="footer-col"><h4>Applications</h4><a href="equity.html">AegisIQ Equity</a><a href="stock-ledger.html">Stock Ledger</a><a href="wealth-ledger.html">Wealth Ledger</a><a href="investor-portal.html">Investor Portal</a></div>
+      <div class="footer-col"><h4>Company</h4><a href="compare.html">Compare applications</a><a href="pricing.html">Product pricing</a><a href="index.html#trust">Trust and governance</a><a href="index.html#company">About AegisIQ Limited</a><a href="index.html#contact">Contact</a></div>
+      <div class="footer-col"><h4>Legal</h4><a href="legal.html">Legal center</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="acceptable-use.html">Acceptable use</a><a href="refund.html">Refund policy</a><a href="mailto:legal@aegisiqfintech.com">legal@aegisiqfintech.com</a></div>
     </div>
+    <div class="footer-bottom"><span>© 2026 AegisIQ Limited · Hong Kong · BRN / UBI 79570488</span><span>aegisiqlimited.com · Product pricing is maintained on each application site</span></div>
   </div>
-</section>
-
-<section class="block" id="company">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">The company</span>
-      <h2 class="big">Built on a single conviction: <span class="em">capital deserves a spine.</span></h2>
-      <p class="lede">AegisIQ Limited exists to solve a problem most financial software ignores: a company is researched, owned, held, and financed across tools that rarely speak to each other. Aegis is the shield; IQ is the intelligence. We answered with one secure financial repository and a suite of focused applications on top of it — each purpose-built, every one reading and writing the same entity and ownership records, governed by entity-level isolation and a tamper-evident audit layer.</p>
-    </div>
-    <div class="quote reveal" style="max-width:44em;margin-bottom:44px">
-      <p>"We never set out to build one product. We set out to build the spine that every financial product could share."</p>
-      <span>— The AegisIQ thesis</span>
-    </div>
-
-    <!-- COMPANY TIMELINE — replace [YEAR]/copy with AegisIQ Limited's real milestones -->
-    <div class="reveal">
-      <span class="eyebrow" style="margin-bottom:24px">Heritage &amp; roadmap</span>
-      <div class="timeline">
-        <div class="tl-item"><div class="yr">20XX · Founded</div><h4>AegisIQ Limited established</h4><p>Founded to build governance-first financial infrastructure for private capital. <em>Replace with the real founding year and story.</em></p></div>
-        <div class="tl-item"><div class="yr">20XX · The spine</div><h4>The shared financial repository</h4><p>The entity-scoped data model and the universal <code>entity_id</code> key are formalized — one record, many applications.</p></div>
-        <div class="tl-item"><div class="yr">20XX · The ledgers</div><h4>Stock Ledger &amp; Wealth Ledger go live</h4><p>Cap-table management and multi-entity wealth consolidation launch on the shared spine.</p></div>
-        <div class="tl-item"><div class="yr">20XX · The intelligence</div><h4>AegisIQ Equity launches</h4><p>AI equity research and risk analytics join the network, wired into the same record.</p></div>
-        <div class="tl-item"><div class="yr">2026 · The network</div><h4>Four platforms, one shield</h4><p>Investor operations close the loop — research, ownership, wealth, and capital under one governance standard.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="block" id="intelligence" style="padding-top:0">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Intelligence</span>
-      <h2 class="big">AI that lives <span class="em">inside the record,</span> not beside it.</h2>
-      <p class="lede">Every intelligent feature reads from the same financial spine and writes back to it — no bolt-on chatbots. Models are wired into research, risk, and compliance, with the model key held server-side only.</p>
-    </div>
-    <div class="feat-grid reveal">
-      <div class="feat"><div class="n">01</div><h4>Equity research models</h4><p>Machine-learning models process financial statements, technical patterns, and news sentiment to turn any ticker into decision-ready analysis.</p></div>
-      <div class="feat"><div class="n">02</div><h4>Risk &amp; stress-testing</h4><p>Comprehensive risk scoring and portfolio stress-testing surface exposure before it becomes a loss, across single positions or a whole book.</p></div>
-      <div class="feat"><div class="n">03</div><h4>Compliance checks</h4><p>Built-in checks validate ownership actions and cap-table changes against the rules that govern them, before they are committed.</p></div>
-      <div class="feat"><div class="n">04</div><h4>Consolidated clarity</h4><p>Multi-entity, multi-currency data is reconciled into one roll-up view, with historical FX handled correctly and every figure traceable.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="block" id="platform" style="padding-top:0">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">The platform · live apps</span>
-      <h2 class="big">One network. <span class="em">Four connected platforms.</span></h2>
-      <p class="lede">Each application is built for its purpose and shares the same entity, ownership, and security layer. Full detail on every app page.</p>
-    </div>
-
-    <div class="apps">
-
-      <article class="app reveal" style="--accent:#5B8CFF">
-        <div class="app-visual">
-          <svg width="220" height="150" viewBox="0 0 220 150" aria-hidden="true">
-            <polyline points="10,120 40,90 65,105 95,60 125,80 155,35 190,50 210,20" fill="none" stroke="url(#blueGrad)" stroke-width="2.5"/>
-            <g fill="#5B8CFF" opacity=".85"><rect x="34" y="90" width="6" height="30"/><rect x="90" y="60" width="6" height="55"/><rect x="150" y="35" width="6" height="75"/></g>
-            <circle cx="155" cy="35" r="4" fill="#F2B035"/><line x1="10" y1="130" x2="210" y2="130" stroke="#232B50"/>
-          </svg>
-        </div>
-        <div class="app-body">
-          <span class="badge"><span class="lv"></span>Live</span>
-          <div class="kicker">AI Equity Research &amp; Market Intelligence</div>
-          <h3>AegisIQ Equity</h3>
-          <div class="domain">aegisiqequity.ai</div>
-          <p class="role">From ticker to insight in seconds — AI-driven research across major global markets.</p>
-          <p class="desc">Automated equity research that turns any ticker into decision-ready analysis. Machine-learning models process thousands of data points — financial statements, technical patterns, news sentiment, and market trends — to deliver actionable research and predictions.</p>
-          <ul class="app-ul">
-            <li>AI price predictions and trend analysis</li>
-            <li>Live market data, charts and indicators</li>
-            <li>Risk scoring and portfolio stress-testing</li>
-            <li>Alerts for price moves, volume and events</li>
-            <li>NYSE, NASDAQ, LSE and global markets</li>
-            <li>Reads and writes the shared entity record</li>
-          </ul>
-          <a class="learn" href="equity.html">Full details <span class="arw">→</span></a>
-        </div>
-      </article>
-
-      <article class="app reveal" style="--accent:#F2B035">
-        <div class="app-visual">
-          <svg width="220" height="150" viewBox="0 0 220 150" aria-hidden="true">
-            <rect x="30" y="24" width="160" height="20" rx="3" fill="#131C3A" stroke="#232B50"/>
-            <rect x="30" y="50" width="160" height="16" rx="2" fill="#0F1730" stroke="#1A2244"/>
-            <rect x="30" y="70" width="160" height="16" rx="2" fill="#0F1730" stroke="#1A2244"/>
-            <rect x="30" y="90" width="160" height="16" rx="2" fill="#0F1730" stroke="#1A2244"/>
-            <rect x="34" y="28" width="60" height="12" rx="2" fill="#F2B035" opacity=".9"/>
-            <circle cx="176" cy="58" r="4" fill="#38CFA6"/><circle cx="176" cy="78" r="4" fill="#38CFA6"/><circle cx="176" cy="98" r="4" fill="#F2B035"/>
-          </svg>
-        </div>
-        <div class="app-body">
-          <span class="badge"><span class="lv"></span>Live</span>
-          <div class="kicker">Institutional Cap-Table &amp; Stock Ledger</div>
-          <h3>AegisIQ Stock Ledger</h3>
-          <div class="domain">aegisiqstockledger.com</div>
-          <p class="role">A compliance-grade, auditable stock ledger for private companies, funds and complex structures.</p>
-          <p class="desc">Manage cap tables across multiple entities, funds and subsidiaries from one unified platform. Every issuance, transfer, conversion and certificate is recorded as a timestamped, immutable event — with governance and entity-level isolation built into the core.</p>
-          <ul class="app-ul">
-            <li>Cap tables across entities, funds, subsidiaries</li>
-            <li>Common, Preferred, Warrants and Options</li>
-            <li>Issuances, transfers, conversions, cancellations</li>
-            <li>Governance-locked classes, certificate lifecycle</li>
-            <li>AES-256 at rest, TLS 1.3 in transit</li>
-            <li>As-of timestamp and last-attestation date</li>
-          </ul>
-          <a class="learn" href="stock-ledger.html">Full details <span class="arw">→</span></a>
-        </div>
-      </article>
-
-      <article class="app reveal" style="--accent:#38CFA6">
-        <div class="app-visual">
-          <svg width="220" height="150" viewBox="0 0 220 150" aria-hidden="true">
-            <circle cx="110" cy="75" r="46" fill="none" stroke="#232B50" stroke-width="14"/>
-            <circle cx="110" cy="75" r="46" fill="none" stroke="#38CFA6" stroke-width="14" stroke-dasharray="150 289" transform="rotate(-90 110 75)"/>
-            <circle cx="110" cy="75" r="46" fill="none" stroke="#F2B035" stroke-width="14" stroke-dasharray="70 289" stroke-dashoffset="-150" transform="rotate(-90 110 75)"/>
-            <circle cx="110" cy="75" r="46" fill="none" stroke="#5B8CFF" stroke-width="14" stroke-dasharray="45 289" stroke-dashoffset="-220" transform="rotate(-90 110 75)"/>
-            <text x="110" y="79" text-anchor="middle" fill="#F2B035" font-family="IBM Plex Mono" font-size="11">WORTH</text>
-          </svg>
-        </div>
-        <div class="app-body">
-          <span class="badge"><span class="lv"></span>Live</span>
-          <div class="kicker">Multi-Entity Wealth &amp; Net-Worth</div>
-          <h3>AegisIQ Wealth Ledger</h3>
-          <div class="domain">aegisiqwealthledger.com</div>
-          <p class="role">A consolidated ledger for assets and net worth across entities, currencies and jurisdictions.</p>
-          <p class="desc">One reconciled view of everything you hold. Import cleanly from your accounting systems, keep each entity's book intact, and roll them up into a single reporting currency — with historical FX handled correctly and every figure traceable to its source.</p>
-          <ul class="app-ul">
-            <li>Consolidated net-worth roll-up</li>
-            <li>Clean imports from QuickBooks &amp; more</li>
-            <li>Per-entity reconciliation, full traceability</li>
-            <li>Transaction-date FX to one reporting currency</li>
-            <li>Entity isolation, corporate vs personal</li>
-            <li>Opening-balance handling for partial history</li>
-          </ul>
-          <a class="learn" href="wealth-ledger.html">Full details <span class="arw">→</span></a>
-        </div>
-      </article>
-
-      <article class="app reveal" style="--accent:#C77DFF">
-        <div class="app-visual">
-          <svg width="220" height="150" viewBox="0 0 220 150" aria-hidden="true">
-            <rect x="55" y="30" width="110" height="90" rx="6" fill="#0F1730" stroke="#232B50"/>
-            <rect x="68" y="44" width="84" height="8" rx="2" fill="#C77DFF" opacity=".8"/>
-            <rect x="68" y="60" width="84" height="6" rx="2" fill="#1A2244"/>
-            <rect x="68" y="72" width="60" height="6" rx="2" fill="#1A2244"/>
-            <rect x="68" y="92" width="40" height="16" rx="3" fill="#F2B035"/>
-            <path d="M120 100 l7 7 l14 -16" fill="none" stroke="#38CFA6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <div class="app-body">
-          <span class="badge"><span class="lv"></span>Live</span>
-          <div class="kicker">Private Placement &amp; Investor Operations</div>
-          <h3>AegisIQ Investor Portal</h3>
-          <div class="domain">aegisiqfintech.com</div>
-          <p class="role">The issuer and investor operations layer — and the identity backbone of the network.</p>
-          <p class="desc">Qualify investors, share offering documents, run subscription workflows, and manage issuer approvals from one secure portal. Built for private placements and Reg S international offerings, with a clear, auditable trail from first interest through subscription close.</p>
-          <ul class="app-ul">
-            <li>Investor qualification &amp; document access</li>
-            <li>Subscription workflow with issuer approval</li>
-            <li>Private placement &amp; Reg S offerings</li>
-            <li>Auditable trail from interest to close</li>
-            <li>Email &amp; identity backbone for the network</li>
-            <li>Ties subscriptions to the entity record</li>
-          </ul>
-          <a class="learn" href="investor-portal.html">Full details <span class="arw">→</span></a>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section class="block gov" id="governance">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Security &amp; compliance</span>
-      <h2 class="big">Governance is the <span class="em">default,</span> not a feature.</h2>
-      <p class="lede">The name is a promise. Every AegisIQ product inherits the same controls, so trust never resets when you move between them.</p>
-    </div>
-    <div class="gov-grid reveal">
-      <div class="gcell"><div class="t">01 / Isolation</div><h4>Entity-scoped by design</h4><p>Role-based access with entity-level isolation across every product. Your US corporation and your UK entity stay walled apart — separation enforced in the data model, not just the UI.</p></div>
-      <div class="gcell"><div class="t">02 / Encryption</div><h4>Bank-grade security</h4><p>AES-256 encryption at rest and TLS 1.3 in transit protect sensitive ownership and financial data end to end, on one shared security spine.</p></div>
-      <div class="gcell"><div class="t">03 / Record</div><h4>Immutable &amp; attested</h4><p>Every action is logged with a timestamp and user attribution. Views show an as-of timestamp and last-attestation date, so you always know the currency of what you're reading.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="block" id="lifecycle">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">The capital continuum</span>
-      <h2 class="big">Research, own, hold, <span class="em">and raise.</span></h2>
-      <p class="lede">The four platforms bookend the life of an entity into one continuous loop — what you research becomes what you own, what you own becomes what you measure, and what you hold becomes what you finance.</p>
-    </div>
-    <div class="life reveal">
-      <div class="lstep"><div class="ph">Research · Equity</div><h4>See clearly</h4><p>AI research and risk scoring turn markets and tickers into decision-ready analysis before a position is taken.</p></div>
-      <div class="lstep"><div class="ph">Own · Stock Ledger</div><h4>Hold the record</h4><p>Ownership is issued, transferred, and certified on an auditable cap table — the entity's source of truth.</p></div>
-      <div class="lstep"><div class="ph">Measure · Wealth Ledger</div><h4>Know the whole</h4><p>Every entity, currency, and account rolls up into one reconciled net-worth view you can actually trust.</p></div>
-      <div class="lstep"><div class="ph">Raise · Investor Portal</div><h4>Finance it</h4><p>Qualified investors, offering documents, and subscriptions close the loop — then the cycle begins again.</p></div>
-    </div>
-    <p class="life-note">Research → Own → Measure → Raise — <b>one continuous record, under one shield.</b></p>
-  </div>
-</section>
-
-<section class="block gov" id="roadmap">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="eyebrow">Roadmap</span>
-      <h2 class="big">The next platforms, <span class="em">coming to the network.</span></h2>
-      <p class="lede">The four live platforms are the foundation. Each new application inherits the same spine, security, and audit layer from day one.</p>
-    </div>
-    <div class="road-grid reveal">
-      <div class="rcard"><div class="cs">Coming soon</div><h4>Fund Administration</h4><p>NAV, capital calls, distributions and LP reporting on the shared entity spine.</p></div>
-      <div class="rcard"><div class="cs">Coming soon</div><h4>Compliance &amp; KYC/AML</h4><p>Identity verification, screening and ongoing monitoring across every entity.</p></div>
-      <div class="rcard"><div class="cs">Coming soon</div><h4>Treasury &amp; Payments</h4><p>Multi-currency cash, bank connectivity and payment initiation across jurisdictions.</p></div>
-      <div class="rcard"><div class="cs">Coming soon</div><h4>Tax &amp; Reporting</h4><p>Entity-level tax packs and cross-jurisdiction reporting drawn straight from the ledgers.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="block contact" id="contact">
-  <div class="wrap contact-grid">
-    <div class="reveal">
-      <span class="eyebrow">Contact</span>
-      <h2 class="big">Bring your entities <span class="em">under one platform.</span></h2>
-      <p class="lede">Whether you're researching markets, managing a cap table, consolidating wealth, or raising capital, we'll map AegisIQ to how you actually operate.</p>
-      <div class="cline">
-        <a href="mailto:hello@aegisiqfintech.com">hello@aegisiqfintech.com</a>
-        <span>AegisIQ Limited</span>
-        <span>Response within one business day</span>
-      </div>
-    </div>
-    <div class="reveal">
-      <!-- Replace action with your Formspree (or other) endpoint to receive submissions -->
-      <form class="cform" action="https://formspree.io/f/your-form-id" method="POST">
-        <div class="row">
-          <div><label for="name">Name</label><input id="name" name="name" required></div>
-          <div><label for="email">Work email</label><input id="email" name="email" type="email" required></div>
-        </div>
-        <div class="row">
-          <div><label for="org">Organization</label><input id="org" name="organization"></div>
-          <div><label for="interest">Interested in</label>
-            <select id="interest" name="interest">
-              <option>The platform</option><option>AegisIQ Equity</option><option>AegisIQ Stock Ledger</option>
-              <option>AegisIQ Wealth Ledger</option><option>Investor Portal</option><option>Partnership</option>
-            </select>
-          </div>
-        </div>
-        <div><label for="msg">Message</label><textarea id="msg" name="message" placeholder="Tell us what you hold and what you need."></textarea></div>
-        <button class="btn btn-primary" type="submit">Send message <span class="arw">→</span></button>
-        <p class="form-note">Submissions route to hello@aegisiqfintech.com. Configure the form endpoint before going live.</p>
-      </form>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <a class="brand" href="index.html">
-          <img src="assets/logo.svg" width="28" height="28" alt="">
-          <span style="font-family:var(--serif);font-weight:600;font-size:19px">Aegis<span style="color:var(--gold)">IQ</span> Limited</span>
-        </a>
-        <p data-i18n="foot.tagline">The Financial Intelligence Network — a connected suite of governance-first financial platforms on one secure data spine.</p>
-        <p class="legal-fine">AegisIQ Limited, a private company limited by shares incorporated in Hong Kong. BRN / UBI 79570488.</p>
-      </div>
-      <div class="fcol"><h5 data-i18n="foot.platform">Platform</h5>
-        <a href="equity.html">AegisIQ Equity</a>
-        <a href="stock-ledger.html">AegisIQ Stock Ledger</a>
-        <a href="wealth-ledger.html">AegisIQ Wealth Ledger</a>
-        <a href="investor-portal.html">Investor Portal</a>
-      </div>
-      <div class="fcol"><h5 data-i18n="foot.company">Company</h5>
-        <a href="index.html#company" data-i18n="nav.company">Company</a>
-        <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
-        <a href="index.html#governance" data-i18n="nav.governance">Governance</a>
-        <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
-      </div>
-      <div class="fcol"><h5 data-i18n="foot.legal">Legal</h5>
-        <a href="privacy.html" data-i18n="foot.privacy">Privacy Policy</a>
-        <a href="terms.html" data-i18n="foot.terms">Terms of Service</a>
-        <a href="legal.html" data-i18n="foot.disclosures">Disclosures</a>
-        <a href="mailto:hello@aegisiqfintech.com">hello@aegisiqfintech.com</a>
-      </div>
-    </div>
-    <div class="foot-bottom">
-      <span>© 2026 AegisIQ Limited · Incorporated in Hong Kong · BRN/UBI 79570488</span>
-      <span>aegisiqlimited.com · AES-256 · TLS 1.3 · Entity-scoped isolation</span>
-    </div>
-  </div>
-</footer>
-
-<script src="assets/site.js"></script>
-<script src="assets/i18n.js"></script>
-</body>
-</html>
+</footer><script src="assets/corporate.js"></script>
+</body></html>
