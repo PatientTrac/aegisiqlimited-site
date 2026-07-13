@@ -4,23 +4,25 @@ Static corporate website for `aegisiqlimited.com`.
 
 ## Purpose
 
-This site explains AegisIQ Limited and routes visitors to four distinct applications:
+The site presents AegisIQ Limited and routes visitors to four focused financial applications:
 
 - AegisIQ Equity — `aegisiqequity.ai`
 - AegisIQ Stock Ledger — `aegisiqstockledger.com`
 - AegisIQ Wealth Ledger — `aegisiqwealthledger.com`
 - AegisIQ Investor Portal — `aegisiqfintech.com`
 
-Detailed plan pricing remains on each product site. The corporate pricing page is a directory.
+The corporate site explains the company, product family, AI operating model, and trust principles. Detailed product access, pricing, demonstrations, checkout, and product-specific disclosures remain on the applicable product site.
 
 ## Deployment
 
-The project is a static Netlify site with no build command.
+The project is a static site with no build command.
 
 ```text
 Publish directory: .
 Build command:     none
 ```
+
+Netlify and Vercel configuration files are included.
 
 ## Main pages
 
@@ -34,32 +36,24 @@ wealth-ledger.html
 investor-portal.html
 ```
 
-## Design assets
-
-New corporate assets are located in:
+## Home-page assets
 
 ```text
-assets/corporate.css
-assets/corporate.js
-assets/visuals/
+assets/home.css
+assets/home.js
+assets/aegisiq-financial-icon.webp
+assets/aegisiq-og.jpg
 ```
 
-The existing legal pages and their legacy stylesheet are retained to avoid changing approved policy wording during this design update.
+Shared corporate assets remain in `assets/corporate.css`, `assets/corporate.js`, and `assets/visuals/`.
 
-## Review documentation
-
-```text
-docs/SITE_REVIEW.md
-docs/CORPORATE_SITE_HANDOFF.md
-```
-
-## Required production checks
+## Production checks
 
 Before deployment:
 
-1. Confirm every product and pricing URL.
-2. Confirm the status wording for AegisIQ Wealth Ledger.
-3. Run a broken-link check.
-4. Review desktop and mobile views.
-5. Confirm the legal contact and sales addresses.
-6. Do not publish unimplemented cross-product integration claims.
+1. Confirm every product, pricing, email, and legal URL.
+2. Confirm current product-status language.
+3. Run a broken-link and HTML validation check.
+4. Review desktop, tablet, and mobile views.
+5. Keep operational credentials, payment-account details, and internal implementation notes out of the publish directory.
+6. Do not publish unimplemented cross-product integration or certification claims.
