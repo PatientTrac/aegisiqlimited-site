@@ -26,3 +26,30 @@
 .legal-card h3{margin:12px 0 7px;font-size:18px}
 .legal-card p{color:var(--muted);font-size:13px;line-height:1.55;margin:0}
 @media(max-width:700px){.legal-tabs{top:75px}.legal-card-grid{grid-template-columns:1fr}.legal-document{font-size:15px}.legal-document h2{font-size:25px}}
+
+/* Cookie/storage inventory table */
+.legal-table{width:100%;border-collapse:collapse;margin:0 0 22px;font-size:14px;display:block;overflow-x:auto}
+.legal-table th,.legal-table td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+.legal-table th{color:#fff;font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:rgba(46,107,255,.10);white-space:nowrap}
+.legal-table td{color:#c7d2e6}
+.legal-document code{font-family:var(--mono);font-size:.88em;background:rgba(46,107,255,.12);padding:1px 6px;border-radius:5px}
+
+/* Accessibility: skip-to-content link (visible on focus) */
+.skip-link{position:absolute;left:-999px;top:0;z-index:100}
+.skip-link:focus{left:12px;top:12px;padding:10px 16px;background:#fff;color:#040812;border-radius:8px;font-weight:800;text-decoration:none}
+:focus-visible{outline:2px solid var(--gold-2,#f4c64f);outline-offset:2px}
+
+/* Print: clean, ink-friendly legal documents */
+@media print{
+  .site-nav,.legal-tabs,.site-footer,.menu-toggle,.skip-link{display:none!important}
+  body{background:#fff!important;color:#000!important}
+  .page-hero,.legal-page-hero{padding:0 0 12px!important;background:none!important}
+  .eyebrow,.legal-meta{color:#333!important}
+  .legal-document,.legal-document h2,.legal-document h3,.legal-document li{color:#000!important}
+  .legal-document a:not(.btn){color:#000!important;text-decoration:underline}
+  .legal-document a[href^="http"]::after{content:" (" attr(href) ")";font-size:11px;color:#555;word-break:break-all}
+  .legal-callout,.legal-contact,.legal-card{border:1px solid #bbb!important;background:none!important}
+  .legal-table th{background:none!important;color:#000!important}
+  .legal-table th,.legal-table td{border-color:#999!important}
+  main.legal-section{padding-top:8px!important}
+}
