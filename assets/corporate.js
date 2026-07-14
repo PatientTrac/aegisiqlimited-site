@@ -26,7 +26,7 @@
         cf.reset();
         if(status){status.hidden=false;status.textContent="Thanks — we've received your request and will be in touch shortly.";status.className='contact-note is-ok';}
       }catch(err){
-        if(status){status.hidden=false;status.textContent='Something went wrong. Please email hello@aegisiqfintech.com.';status.className='contact-note is-err';}
+        if(status){status.hidden=false;status.textContent='Something went wrong. Please email sales@aegisiqfintech.com.';status.className='contact-note is-err';}
       }finally{if(btn){btn.disabled=false;}}
     });
   }
