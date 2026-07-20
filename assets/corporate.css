@@ -247,6 +247,7 @@ button,input,textarea,select{font:inherit}
 .page-hero h1{font-size:clamp(44px,6.8vw,78px);line-height:1;letter-spacing:-.055em;max-width:950px;margin:20px auto}
 .page-hero .subhead{margin:0 auto}
 .price-directory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.price-directory.single-addon{grid-template-columns:minmax(0,1fr);max-width:560px}
 .price-card{position:relative;border:1px solid var(--line);border-radius:22px;padding:30px;background:linear-gradient(145deg,rgba(14,28,55,.9),rgba(7,14,29,.96));overflow:hidden}
 .price-card::after{content:"";position:absolute;width:240px;height:240px;border-radius:50%;right:-100px;top:-100px;background:radial-gradient(circle,color-mix(in srgb,var(--accent) 20%,transparent),transparent 68%)}
 .price-card .product{color:var(--accent);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
@@ -302,3 +303,20 @@ button,input,textarea,select{font:inherit}
   .cta-panel{padding:30px 24px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{animation:none!important;transition:none!important}}
+
+/* Contact form (Netlify Forms) */
+.contact-panel{display:grid;grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr);gap:34px;align-items:start}
+.contact-intro h2{margin:10px 0 12px}
+.contact-alt{margin-top:14px;color:var(--muted);font-size:14px}
+.contact-alt a{color:var(--gold-2);text-decoration:underline;text-underline-offset:3px}
+.contact-form{display:flex;flex-direction:column;gap:14px}
+.contact-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.contact-form label{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.contact-form input,.contact-form select,.contact-form textarea{font:inherit;color:#fff;background:rgba(8,17,35,.72);border:1px solid var(--line);border-radius:12px;padding:11px 13px;text-transform:none;letter-spacing:0;font-weight:500}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{outline:none;border-color:var(--blue-2);box-shadow:0 0 0 3px rgba(46,107,255,.18)}
+.contact-form textarea{resize:vertical;min-height:96px}
+.contact-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.contact-note{margin:4px 0 0;font-size:14px;font-weight:600}
+.contact-note.is-ok{color:#54d6a6}
+.contact-note.is-err{color:#ff9b9b}
+@media(max-width:820px){.contact-panel{grid-template-columns:1fr;gap:22px}.contact-row{grid-template-columns:1fr}}
