@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://aegisiqlimited.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://aegisiqlimited.com/compare</loc><priority>0.9</priority></url>
-  <url><loc>https://aegisiqlimited.com/pricing</loc><priority>0.9</priority></url>
-  <url><loc>https://aegisiqlimited.com/equity</loc><priority>0.9</priority></url>
-  <url><loc>https://aegisiqlimited.com/stock-ledger</loc><priority>0.9</priority></url>
-  <url><loc>https://aegisiqlimited.com/wealth-ledger</loc><priority>0.9</priority></url>
-  <url><loc>https://aegisiqlimited.com/investor-portal</loc><priority>0.9</priority></url>
-  <url><loc>https://aegisiqlimited.com/legal</loc><priority>0.5</priority></url>
-  <url><loc>https://aegisiqlimited.com/privacy</loc><priority>0.5</priority></url>
-  <url><loc>https://aegisiqlimited.com/terms</loc><priority>0.5</priority></url>
-  <url><loc>https://aegisiqlimited.com/disclaimer</loc><priority>0.5</priority></url>
-  <url><loc>https://aegisiqlimited.com/cookies</loc><priority>0.5</priority></url>
-  <url><loc>https://aegisiqlimited.com/acceptable-use</loc><priority>0.5</priority></url>
-  <url><loc>https://aegisiqlimited.com/refund</loc><priority>0.5</priority></url>
+  <url><loc>https://aegisiqgroup.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://aegisiqgroup.com/compare</loc><priority>0.9</priority></url>
+  <url><loc>https://aegisiqgroup.com/pricing</loc><priority>0.9</priority></url>
+  <url><loc>https://aegisiqgroup.com/equity</loc><priority>0.9</priority></url>
+  <url><loc>https://aegisiqgroup.com/stock-ledger</loc><priority>0.9</priority></url>
+  <url><loc>https://aegisiqgroup.com/wealth-ledger</loc><priority>0.9</priority></url>
+  <url><loc>https://aegisiqgroup.com/investor-portal</loc><priority>0.9</priority></url>
+  <url><loc>https://aegisiqgroup.com/legal</loc><lastmod>2026-07-14</lastmod><priority>0.5</priority></url>
+  <url><loc>https://aegisiqgroup.com/legal/privacy</loc><lastmod>2026-07-14</lastmod><priority>0.5</priority></url>
+  <url><loc>https://aegisiqgroup.com/legal/terms</loc><lastmod>2026-07-14</lastmod><priority>0.5</priority></url>
+  <url><loc>https://aegisiqgroup.com/legal/cookies</loc><lastmod>2026-07-14</lastmod><priority>0.5</priority></url>
+  <url><loc>https://aegisiqgroup.com/legal/disclaimer</loc><lastmod>2026-07-14</lastmod><priority>0.5</priority></url>
+  <url><loc>https://aegisiqgroup.com/legal/acceptable-use</loc><lastmod>2026-07-14</lastmod><priority>0.5</priority></url>
+  <url><loc>https://aegisiqgroup.com/legal/refund</loc><lastmod>2026-07-14</lastmod><priority>0.5</priority></url>
 </urlset>
