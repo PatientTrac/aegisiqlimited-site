@@ -17,6 +17,14 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# ── aegisiqworkpapers.com: same site, different domain, rewritten to the
+# Workpapers page so the address bar stays on aegisiqworkpapers.com ─────────
+[[redirects]]
+  from = "https://aegisiqworkpapers.com/"
+  to = "/workpapers.html"
+  status = 200
+  force = true
+
 # ── Marketing / product pages (extensionless rewrites) ──────────────────────
 [[redirects]]
   from = "/applications"
